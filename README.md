@@ -8,7 +8,7 @@ value 0.0.0.0:11434
 
 example of a remote commands to 192.168.68.127
 
-url http://192.168.68.127:11434/api/generate -d '{
+curl http://192.168.68.127:11434/api/generate -d '{
   "model": "mistral",
   "prompt": "Why is the sky blue?",
   "stream": false
